@@ -45,6 +45,10 @@ def urlopen(url, data=None, timeout=defaults.TIMEOUT, ca_certs=None,
         def https_open(self, req):
             return self.do_open(ValidHTTPSConnection, req)
 
+    # CHANGED by Zest: hardcode verify_ssl to False.
+    # Use this version only when Sentry is local,
+    # and you have problems getting a properly verified SSL connection.
+    verify_ssl = False
     if verify_ssl:
         handlers = [ValidHTTPSHandler]
     else:

@@ -8,7 +8,10 @@ Project adheres to Semantic Versioning, http://semver.org/spec/v2.0.0.html.
 6.10.1 (unreleased)
 -------------------
 
-* Nothing changed yet.
+* [Core] CHANGED by Zest: hardcode verify_ssl to False.
+         Use this version only when Sentry is local,
+         and you have problems getting a properly verified SSL connection.
+
 
 6.10.0
 ------
