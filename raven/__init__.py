@@ -12,7 +12,10 @@ import os.path
 
 __all__ = ('VERSION', 'Client', 'get_version')
 
-VERSION = '6.10.0'
+# Change to support zest.releaser: set __version__ instead of VERSION.
+# See also setup.cfg.
+__version__ = '6.10.0'
+VERSION = __version__
 
 
 def _get_git_revision(path):
