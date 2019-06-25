@@ -5,8 +5,8 @@ All notable changes to this project will be documented in this file.
 Project adheres to Semantic Versioning, http://semver.org/spec/v2.0.0.html.
 
 
-6.10.1 (unreleased)
--------------------
+6.10.1.dev0+zest1 (2019-06-25)
+------------------------------
 
 * [Core] CHANGED by Zest: hardcode verify_ssl to False.
          Use this version only when Sentry is local,
