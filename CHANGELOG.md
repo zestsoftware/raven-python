@@ -2,6 +2,12 @@ Changelog
 =========
 
 All notable changes to this project will be documented in this file.
+6.10.1 (unreleased)
+-------------------
+
+- Nothing changed yet.
+
+
 Project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 6.10.0
