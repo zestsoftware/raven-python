@@ -2,13 +2,13 @@ Changelog
 =========
 
 All notable changes to this project will be documented in this file.
+Project adheres to Semantic Versioning, http://semver.org/spec/v2.0.0.html.
+
+
 6.10.1 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
-
-Project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+* Nothing changed yet.
 
 6.10.0
 ------
@@ -35,7 +35,7 @@ Project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ------------------
 * [Sanic] Added support for sanic.
 * [Core] Disabled dill logger by default
-* [Core] Added `SENTRY_NAME`, `SENTRY_ENVIRONMENT` and `SENTRY_RELEASE` 
+* [Core] Added `SENTRY_NAME`, `SENTRY_ENVIRONMENT` and `SENTRY_RELEASE`
          environment variables
 * [Core] DSN secret is now optional
 * [Core] Added fix for cases with exceptions in repr
@@ -70,7 +70,7 @@ Project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 * [Django/DRF] Added `application/octet-stream` to non-cacheable types in middleware
 * [Django] Added parsing X-Forwarded-For for `user.ip_address`
 * [Flask] Added `request.remote_addr` as fallback for ip addresses
-* [Lambda] Added initial AWS Lambda support with `contrib.awslambda.LambdaClient` 
+* [Lambda] Added initial AWS Lambda support with `contrib.awslambda.LambdaClient`
 
 
 6.2.1 (2017-09-21)
