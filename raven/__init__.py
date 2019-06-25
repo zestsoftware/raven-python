@@ -14,7 +14,7 @@ __all__ = ('VERSION', 'Client', 'get_version')
 
 # Change to support zest.releaser: set __version__ instead of VERSION.
 # See also setup.cfg.
-__version__ = '6.10.1.dev0+zest1'
+__version__ = '6.10.1.dev0'
 VERSION = __version__
 
 
